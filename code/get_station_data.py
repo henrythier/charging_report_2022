@@ -33,6 +33,9 @@ for id in ids:
     else:
         print(f'No data for: {id}')
 
+    if int(id) % 1000 == 0:
+        print(f'Made it to: {id}')
+
 with open(config['points_data_fp'], 'w', encoding='utf-8') as f:
     json.dump(points, f, ensure_ascii=False, indent=4)
 
