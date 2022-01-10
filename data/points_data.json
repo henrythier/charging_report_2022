@@ -1,0 +1,58 @@
+[
+    {
+        "id": "116653",
+        "title": "Ladepunkt Herrenhäuser Straße 8 (1)",
+        "power": "22",
+        "plugs": [
+            {
+                "id": "1",
+                "plug_name": "AC Buchse Typ 2",
+                "plug_key": "ACSocketType2",
+                "sort_nr": "1",
+                "backend_key": "CONNECTOR.AC.TYPE2.SOCKET"
+            }
+        ]
+    },
+    {
+        "id": "116654",
+        "title": "Ladepunkt Herrenhäuser Straße 8 (2)",
+        "power": "22",
+        "plugs": [
+            {
+                "id": "1",
+                "plug_name": "AC Buchse Typ 2",
+                "plug_key": "ACSocketType2",
+                "sort_nr": "1",
+                "backend_key": "CONNECTOR.AC.TYPE2.SOCKET"
+            }
+        ]
+    },
+    {
+        "id": "116655",
+        "title": "Ladepunkt Köbelinger Marktplatz (1)",
+        "power": "22",
+        "plugs": [
+            {
+                "id": "1",
+                "plug_name": "AC Buchse Typ 2",
+                "plug_key": "ACSocketType2",
+                "sort_nr": "1",
+                "backend_key": "CONNECTOR.AC.TYPE2.SOCKET"
+            }
+        ]
+    },
+    {
+        "id": "116656",
+        "title": "Ladepunkt Köbelinger Marktplatz (2)",
+        "power": "22",
+        "plugs": [
+            {
+                "id": "1",
+                "plug_name": "AC Buchse Typ 2",
+                "plug_key": "ACSocketType2",
+                "sort_nr": "1",
+                "backend_key": "CONNECTOR.AC.TYPE2.SOCKET"
+            }
+        ]
+    }
+]

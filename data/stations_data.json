@@ -1,0 +1,110 @@
+[
+    {
+        "id": "58695",
+        "title": "Ladestation Herrenhäuser Straße 8",
+        "lat": "52.39210000",
+        "lon": "9.69711000",
+        "street": "Herrenhäuser Straße 8",
+        "zip": "30419",
+        "city": "Hannover",
+        "plug": 0,
+        "m": {
+            "name": "enercity AG",
+            "email": "elektromobilitaet@enercity.de",
+            "phone": "0511 - 430-3113"
+        },
+        "open": 1,
+        "access": {
+            "id": "1",
+            "type_name": "Keine Angabe",
+            "type_key": "NOT.SPECIFIED",
+            "sort_nr": "1",
+            "backend_key": "NOT.SPECIFIED"
+        },
+        "electricity_mix": {
+            "id": "3",
+            "mix_name": "Keine Angabe",
+            "mix_key": "NOT.SPECIFIED",
+            "sort_nr": "1",
+            "backend_key": "NOT.SPECIFIED"
+        },
+        "charge_type": {
+            "id": "1",
+            "type_name": "Schnellladestation",
+            "type_key": "QUICKCHARGE",
+            "sort_nr": "1",
+            "backend_key": "QUICKCHARGE",
+            "min_power": "23"
+        },
+        "payment_types": [
+            {
+                "id": "6",
+                "payment_name": "Sonstiges",
+                "payment_key": "OTHERS",
+                "sort_nr": "6",
+                "backend_key": "OTHERS"
+            }
+        ],
+        "payment_mode": {
+            "id": "3",
+            "mode_name": "Nach kWh/Zeit kombiniert",
+            "mode_key": "COMBO",
+            "sort_nr": "5",
+            "backend_key": "COMBO"
+        }
+    },
+    {
+        "id": "58696",
+        "title": "Ladestation Köbelinger Marktplatz",
+        "lat": "52.37049000",
+        "lon": "9.73694000",
+        "street": "Köbelinger Marktplatz",
+        "zip": "30159",
+        "city": "Hannover",
+        "plug": 0,
+        "m": {
+            "name": "enercity AG",
+            "email": "elektromobilitaet@enercity.de",
+            "phone": "0511 - 430-3113"
+        },
+        "open": 1,
+        "access": {
+            "id": "1",
+            "type_name": "Keine Angabe",
+            "type_key": "NOT.SPECIFIED",
+            "sort_nr": "1",
+            "backend_key": "NOT.SPECIFIED"
+        },
+        "electricity_mix": {
+            "id": "3",
+            "mix_name": "Keine Angabe",
+            "mix_key": "NOT.SPECIFIED",
+            "sort_nr": "1",
+            "backend_key": "NOT.SPECIFIED"
+        },
+        "charge_type": {
+            "id": "1",
+            "type_name": "Schnellladestation",
+            "type_key": "QUICKCHARGE",
+            "sort_nr": "1",
+            "backend_key": "QUICKCHARGE",
+            "min_power": "23"
+        },
+        "payment_types": [
+            {
+                "id": "6",
+                "payment_name": "Sonstiges",
+                "payment_key": "OTHERS",
+                "sort_nr": "6",
+                "backend_key": "OTHERS"
+            }
+        ],
+        "payment_mode": {
+            "id": "3",
+            "mode_name": "Nach kWh/Zeit kombiniert",
+            "mode_key": "COMBO",
+            "sort_nr": "5",
+            "backend_key": "COMBO"
+        }
+    }
+]
