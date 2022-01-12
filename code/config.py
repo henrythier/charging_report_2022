@@ -10,6 +10,6 @@ config = {
     "tesla_sc_id_url":"https://www.tesla.com/findus/list/superchargers/Germany",
     "tesla_sc_id_fp":"../data/tesla_sc_id.csv",
     "tesla_sc_data_fp":"../data/tesla_sc_data.json",
-    "tesla_data_url":"https://www.tesla.com/cua-api/tesla-location?id={}",
-    "tesla_data_fp":"../data/tesla_data.json"
+    "tesla_sc_points_fp":"../data/tesla_sc_points.csv",
+    "tesla_data_url":"https://www.tesla.com/cua-api/tesla-location?id={}"
     }
