@@ -7,6 +7,7 @@ config = {
     "tesla_dc_id_url":"https://www.tesla.com/findus/list/chargers/Germany",
     "tesla_dc_id_fp":"../data/tesla_dc_id.csv",
     "tesla_dc_data_fp":"../data/tesla_dc_data.json",
+    "tesla_dc_points_fp":"../data/tesla_dc_points.csv",
     "tesla_sc_id_url":"https://www.tesla.com/findus/list/superchargers/Germany",
     "tesla_sc_id_fp":"../data/tesla_sc_id.csv",
     "tesla_sc_data_fp":"../data/tesla_sc_data.json",
