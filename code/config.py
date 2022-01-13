@@ -4,6 +4,7 @@ config = {
     "station_ids_fp":"../data/stations_id.csv",
     "points_data_fp":"../data/points_data.json",
     "stations_data_fp":"../data/stations_data.json",
+    "stations_data_table_fp":"../data/stations_data_parsed.csv",
     "tesla_dc_id_url":"https://www.tesla.com/findus/list/chargers/Germany",
     "tesla_dc_id_fp":"../data/tesla_dc_id.csv",
     "tesla_dc_data_fp":"../data/tesla_dc_data.json",
