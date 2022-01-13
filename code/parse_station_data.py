@@ -29,6 +29,7 @@ for s in stations:
             payment_string = f'payment_{backend_key}'
             s[payment_string] = 1
 
+    s.pop('payment_text', None)
     parsed_stations.append(s)
 
 df = pd.DataFrame.from_dict(parsed_stations)
