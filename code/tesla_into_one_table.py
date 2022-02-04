@@ -42,7 +42,11 @@ nominatim_url = 'https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat={
 def get_bundesland(lat, lon):
   temp_url = nominatim_url.format(lat, lon)
   response = requests.get(temp_url)
-  bundesland = response.json()['address']['state']
+  try:
+      bundesland = response.json()['address']['state']
+  except:
+      bundesland = 'Unknown'
+      print(f'lat: {lat}, lon: {lon}')
   return bundesland
 
 tesla['bundesland'] = tesla.apply(lambda x: get_bundesland(x['latitude'], x['longitude']), axis=1)
