@@ -15,5 +15,8 @@ config = {
     "tesla_sc_data_fp":"../data/tesla_sc_data.json",
     "tesla_sc_points_fp":"../data/tesla_sc_points.csv",
     "tesla_data_url":"https://www.tesla.com/cua-api/tesla-location?id={}",
-    "tesla_complete_data_fp":"../data/tesla_complete.csv"
+    "tesla_complete_data_fp":"../data/tesla_complete.csv",
+    "bnetzag_stations_data_fp":"../data/bnetzag_stations.csv",
+    "bnetzag_points_data_fp":"../data/bnetzag_points.csv",
+    "bnetzag_data_fp": "../data/bnetzag.csv"
     }
