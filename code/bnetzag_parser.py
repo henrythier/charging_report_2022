@@ -86,4 +86,4 @@ bnetzag_stations = bnetzag_merged.merge(points_agg, left_index=True, right_index
 Save as csvs
 '''
 bnetzag_stations.to_csv(config['bnetzag_stations_data_fp'])
-bnetzag_points.to_csv(config['bnetzag_points_data_fp'])
+bnetzag_points.to_csv(config['bnetzag_points_data_fp'], index=None)
